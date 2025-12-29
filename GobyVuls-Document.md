@@ -1,6 +1,21 @@
 # Goby History Update Vulnerability Total Document (Continuously Update) 
 The following content is an updated hotspot vulnerability from Goby. Some of the vulnerabilities are recorded on the screen for easy viewing.
 
+**Updated document date:  December 29, 2025** 
+
+## MongoDB Zlib Information Disclosure Vulnerability (CVE-2025-14847)
+|   **Vulnerability**  | MongoDB Zlib Information Disclosure Vulnerability (CVE-2025-14847)|
+| :----:   | :-----|
+|  **Chinese name**  |MongoDB Zlib 信息泄露漏洞（CVE-2025-14847）|
+| **CVSS core**  | 		4.1  |
+| **FOFA Query**  (click to view the results directly)|  [protocol="mongodb"]
+| **Number of assets affected**  | 130W+ |
+| **Description**  |A vulnerability exists in MongoDB Server’s Zlib-compressed protocol handling where mismatched length fields in protocol headers may allow an unauthenticated client to trigger reads of uninitialized heap memory. This issue affects multiple MongoDB Server versions, including versions prior to 7.0.28, 8.0.17, 8.2.3, 6.0.27, 5.0.32, 4.4.30, and several older 4.2, 4.0, and 3.6 series versions.|
+| **Impact** | An unauthenticated attacker may read uninitialized heap memory from the server, potentially exposing sensitive information such as credentials, session data, or internal database content, posing a risk to data confidentiality.|
+
+![](https://img.cdn1.vip/i/69524f178f82b_1767001879.webp)
+
+
 **Updated document date:  December 05, 2025** 
 
 ## Next.js Code Execution Vulnerability(CVE-2025-55182）
